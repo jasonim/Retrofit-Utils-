@@ -4,11 +4,11 @@ import com.jason.retrofit.httpclient.service.api.GithubAPIService;
 import com.jason.retrofit.httpclient.ResponsCallback;
 
 /**
- * 支付相关请求
+ * Github相关请求
  * Created by hujd on 16-6-23.
  */
 public class GithubHttpService extends HttpClient {
-    public static final String PAY_API_BASE_URL = "https://122.224.73.168:2101/api/v1/android/";
+    public static final String GITHUB_API_BASE_URL = "https://api.github.com/";
 
     private final GithubAPIService mService;
 
@@ -26,7 +26,7 @@ public class GithubHttpService extends HttpClient {
     }
 
 
-    private abstract class DefaultSend<T, S> {
+    private abstract class BaseSender<T, S> {
         public void doSend(T data, ResponsCallback<S> callback) {
             if(prepare(callback)) {
                 sendRequest(data, callback);

@@ -32,7 +32,9 @@ public abstract class HttpClient {
         Retrofit retrofit = builder.client(client).build();
         return retrofit.create(serviceClass);
     }
-
+    /**
+     * 设置base url
+     */
     private void setApiBaseUrl(String baseUrl) {
         String apiBaseUrl = baseUrl == null ? DEFAULT_API_BASE_URL : baseUrl;
         builder.baseUrl(apiBaseUrl);
