@@ -3,7 +3,7 @@ package com.jason.retrofit.httpclient.data;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by hujd on 16-6-30.
+ * Created by jason on 16-6-30.
  */
 public class User{
     public long id;
