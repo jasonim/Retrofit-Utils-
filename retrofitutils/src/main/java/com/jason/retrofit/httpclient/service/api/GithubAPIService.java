@@ -11,7 +11,7 @@ import retrofit2.http.Path;
 
 /**
  * Github相关接口
- * Created by hujd on 16-6-23.
+ * Created by jason on 16-6-23.
  */
 public interface GithubAPIService {
     @GET("users/{username}/repos")

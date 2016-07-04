@@ -15,7 +15,7 @@ import org.robolectric.shadows.ShadowLog;
 import static org.junit.Assert.assertNotNull;
 
 /**
- * Created by hujd on 16-7-4.
+ * Created by jason on 16-7-4.
  */
 @RunWith(RobolectricGradleTestRunner.class)
 @Config(constants = BuildConfig.class,sdk = 23)

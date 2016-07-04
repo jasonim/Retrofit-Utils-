@@ -6,7 +6,7 @@ import com.jason.retrofit.httpclient.ResponsCallback;
 
 /**
  * Github相关请求
- * Created by hujd on 16-6-23.
+ * Created by jason on 16-6-23.
  */
 public class GithubHttpService extends HttpClient {
     public static final String GITHUB_API_BASE_URL = "https://api.github.com/";
