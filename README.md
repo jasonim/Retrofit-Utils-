@@ -1,4 +1,4 @@
-# Retrofit-Utils
+# Retrofit-Utils ![](https://travis-ci.org/jasonim/Retrofit-Utils-.svg?branch=master)
 
 **Retrofit框架如何更友好的使用，本着提出问题解决问题的原则，也为大家以后解决问题提供基本思路。**
 
