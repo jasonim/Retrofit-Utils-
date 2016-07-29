@@ -1,7 +1,7 @@
 # Retrofit-Utils ![](https://travis-ci.org/jasonim/Retrofit-Utils-.svg?branch=master)
 
 # 简介
-一个[Retrofit](https://github.com/square/retrofit)框架封装实例。 由于个人能力有限， 可能有很多不足地方欢迎大家交流批评，大家可以Star、Fork，也可以提Issues。
+一个[Retrofit](https://github.com/square/retrofit)框架封装实例。 由于个人能力有限， 可能有很多不足地方欢迎大家交流、批评，大家可以Star、Fork，也可以提Issues。
 
 # 实现思路
 本着提出问题解决问题的原则，也为大家以后解决问题提供基本思路。具体分析看下面地址：
